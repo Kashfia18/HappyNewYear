@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:fillViewport="true"
-    tools:context="com.example.android.happynewyear.MainActivity"
-    android:background="@drawable/sunrise"
-    android:contentDescription="@string/sunrise"
-    >
- <RelativeLayout
-     android:layout_width="match_parent"
-     android:layout_height="match_parent"
-     android:focusable="true"
-     >
+    android:focusable="true"
+    tools:context="com.example.android.happynewyear.MainActivity">
 
-
+    <ImageView
+        android:src="@drawable/sunrise"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/sunrise"
+        />
     <TextView
         android:id="@+id/wish_view"
         android:layout_width="wrap_content"
@@ -102,7 +100,4 @@
         android:fontFamily="cursive"
         />
 
- </RelativeLayout>
-
-</ScrollView>
-
+</RelativeLayout>
