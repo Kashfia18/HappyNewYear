@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textview_padding">20dp</dimen>
+    <dimen name="textview_minutepadding">2dp</dimen>
+    <dimen name="imageview_padding">20dp</dimen>
+    <dimen name="imageview_minutepadding">10dp</dimen>
+    <dimen name="font_size">40sp</dimen>
+
+</resources>

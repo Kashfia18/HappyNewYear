@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="com.example.android.happynewyear.MainActivity"
+    android:background="@drawable/sunrise"
+    android:contentDescription="@string/sunrise"
+    >
+ <RelativeLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:focusable="true"
+     >
+
+
+    <TextView
+        android:id="@+id/wish_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="@bool/textview_parent_top"
+        android:layout_centerHorizontal="@bool/textview_center_horizontal"
+        android:fontFamily="cursive"
+        android:padding="@dimen/textview_padding"
+        android:text="@string/wish"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/font_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/you_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/you"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@id/wish_view"
+        android:layout_centerHorizontal="@bool/textview_center_horizontal"
+        android:paddingLeft="@dimen/textview_padding"
+        android:paddingRight="@dimen/textview_padding"
+        android:paddingBottom="@dimen/textview_padding"
+        android:textSize="@dimen/font_size"
+        android:fontFamily="cursive"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/happy"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="@bool/textview_center_horizontal"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@id/you_view"
+        android:paddingLeft="@dimen/textview_padding"
+        android:paddingRight="@dimen/textview_padding"
+        android:textSize="@dimen/font_size"
+        android:fontFamily="cursive"
+        />
+
+    <ImageView
+        android:id="@+id/face_view"
+        android:src="@drawable/face"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="@bool/textview_parent_bottom"
+        android:layout_alignParentRight="@bool/textview_parent_Right"
+        android:paddingRight="@dimen/imageview_padding"
+        android:paddingLeft="@dimen/imageview_minutepadding"
+        android:paddingBottom="@dimen/textview_padding"
+        android:contentDescription="@string/face"
+        />
+
+    <TextView
+        android:id="@+id/from_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/from"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:layout_alignParentBottom="@bool/textview_parent_bottom"
+        android:layout_toLeftOf="@id/face_view"
+        android:paddingLeft="@dimen/textview_padding"
+        android:paddingBottom="@dimen/textview_padding"
+        android:textSize="@dimen/font_size"
+        android:fontFamily="cursive"
+        />
+
+    <TextView
+        android:id="@+id/love_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/love"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:layout_above="@id/from_view"
+        android:layout_alignParentRight="@bool/textview_parent_Right"
+        android:paddingRight="@dimen/textview_padding"
+        android:paddingBottom="@dimen/textview_minutepadding"
+        android:textSize="@dimen/font_size"
+        android:fontFamily="cursive"
+        />
+
+ </RelativeLayout>
+
+</ScrollView>
+

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Happy New Year</string>
+    <string name="sunrise">image of a sunrise</string>
+    <string name="face">smiley face</string>
+    <string name="wish">Wishing</string>
+    <string name="you">you</string>
+    <string name="happy">a happy new year!</string>
+    <string name="love">With love</string>
+    <string name="from">from</string>
+</resources>

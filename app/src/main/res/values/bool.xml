@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="textview_parent_top">true</bool>
+    <bool name="textview_center_horizontal">true</bool>
+    <bool name="textview_parent_bottom">true</bool>
+    <bool name="textview_parent_Right">true</bool>
+</resources>
